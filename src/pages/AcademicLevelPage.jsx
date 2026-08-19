@@ -1,7 +1,7 @@
 import React from 'react';
 import { useParams, Navigate, Link } from 'react-router-dom';
 import { academicDetails } from '../data/academicsDetails';
-import { FaArrowLeft } from 'react-icons/fa';
+import { FaArrowLeft, FaCheckCircle } from 'react-icons/fa';
 
 const AcademicLevelPage = () => {
   const { level } = useParams();
@@ -73,6 +73,16 @@ const AcademicLevelPage = () => {
               {details.overview}
             </p>
 
+            {/* Bullets (Same as overview card) */}
+            <ul style={{ listStyle: 'none', padding: 0, margin: '0 0 40px 0', display: 'flex', flexDirection: 'column', gap: '12px' }}>
+              {details.bullets && details.bullets.map((bullet, i) => (
+                <li key={i} style={{ display: 'flex', alignItems: 'flex-start', gap: '10px', fontSize: '1.05rem', color: 'var(--color-text-regular)' }}>
+                  <FaCheckCircle style={{ color: 'var(--color-accent)', marginTop: '4px', flexShrink: 0 }} />
+                  <span style={{ lineHeight: 1.5 }}>{bullet}</span>
+                </li>
+              ))}
+            </ul>
+
             {/* 4. Explore admission button in right side */}
             <div>
               <Link to="/contact" className="btn btn-gold btn-lg">
@@ -80,6 +90,20 @@ const AcademicLevelPage = () => {
               </Link>
             </div>
           </div>
+        </div>
+
+        {/* 5. Detailed Sections */}
+        <div style={{ marginTop: '80px', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '40px' }}>
+          {details.sections && details.sections.map((section, idx) => (
+            <div key={idx} style={{ backgroundColor: '#FFFFFF', padding: '30px', borderRadius: '16px', boxShadow: 'var(--shadow-sm)', border: '1px solid var(--color-border)' }}>
+              <h3 style={{ color: 'var(--color-primary)', fontSize: '1.4rem', marginBottom: '16px', borderBottom: '2px solid var(--color-accent-soft)', paddingBottom: '12px' }}>
+                {section.title}
+              </h3>
+              <p style={{ color: 'var(--color-text-muted)', lineHeight: 1.7, fontSize: '1rem' }}>
+                {section.content}
+              </p>
+            </div>
+          ))}
         </div>
 
       </div>
