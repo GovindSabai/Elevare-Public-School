@@ -43,7 +43,7 @@ const AcademicLevelPage = () => {
             display: 'flex', 
             flexDirection: 'row', 
             gap: '40px',
-            alignItems: 'flex-start',
+            alignItems: 'stretch',
             flexWrap: 'wrap'
           }}
         >
@@ -54,6 +54,8 @@ const AcademicLevelPage = () => {
               alt={details.title}
               style={{
                 width: '100%',
+                height: '100%',
+                minHeight: '400px',
                 borderRadius: '16px',
                 boxShadow: 'var(--shadow-lg)',
                 objectFit: 'cover'

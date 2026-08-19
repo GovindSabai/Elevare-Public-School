@@ -32,6 +32,10 @@ export const academicDetails = {
       {
         title: 'Core Subjects & Co-Curriculars',
         content: 'Academics cover English, Mathematics, Science & Environmental Studies, Hindi, Computer Basics, and General Knowledge. Our robust co-curricular program ensures holistic development, featuring Visual Arts, Clay Modeling, Music, Martial Arts, Kids Yoga, and regular sports activities.'
+      },
+      {
+        title: 'Assessment & Feedback',
+        content: 'We believe in continuous, stress-free evaluation. Instead of rigid examinations, we use formative assessments, project portfolios, and interactive quizzes to monitor progress, ensuring each child learns at their own comfortable pace without pressure.'
       }
     ]
   },
@@ -65,6 +69,10 @@ export const academicDetails = {
       {
         title: 'Core Subjects & Skill Enrichment',
         content: 'The core syllabus includes Advanced Mathematics, Physics, Chemistry, Biology, Social Sciences (History, Civics, Geography, Economics), Languages, and Information Technology. Our skill enrichment programs provide extra focus on Python programming, Robotics, Model United Nations (MUN), and Vedic Math to stay ahead of the curve.'
+      },
+      {
+        title: 'Student Life & Clubs',
+        content: 'Beyond academics, secondary students are encouraged to participate in diverse clubs including the Eco Club, Dramatics Society, Coding Club, and Model United Nations. These activities build leadership and teamwork skills essential for their holistic growth.'
       }
     ]
   },
@@ -98,6 +106,10 @@ export const academicDetails = {
       {
         title: 'Streams & Subjects Offered',
         content: 'Science (PCM/PCB) includes Physics, Chemistry, Math, Biology, Computer Science, and Artificial Intelligence. Commerce includes Accountancy, Business Studies, Economics, and Applied Math. Humanities offers History, Political Science, Psychology, and Sociology. Physical Education and Fine Arts are available as electives across all streams.'
+      },
+      {
+        title: 'Mentorship & Counseling',
+        content: 'Navigating the final years of schooling can be challenging. We provide dedicated mentorship and regular one-on-one psychological counseling to help students manage academic pressure, make informed career choices, and maintain robust mental well-being.'
       }
     ]
   }
