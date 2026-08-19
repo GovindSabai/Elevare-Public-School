@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <circle cx="50" cy="50" r="48" fill="#0B2447" stroke="#D4A017" stroke-width="3"/>
+  <!-- 3 Ascending Gold Chevrons -->
+  <path d="M50 18 L70 34 L62 38 L50 28 L38 38 L30 34 Z" fill="#D4A017"/>
+  <path d="M50 32 L68 46 L61 50 L50 41 L39 50 L32 46 Z" fill="#E5B834"/>
+  <path d="M50 45 L66 57 L60 61 L50 53 L40 61 L34 57 Z" fill="#F3CC5B"/>
+  <!-- Open Book at Base -->
+  <path d="M50 64 C42 61 32 63 26 66 L26 78 C32 75 42 73 50 76 C58 73 68 75 74 78 L74 66 C68 63 58 61 50 64 Z" fill="#FFFFFF" opacity="0.95"/>
+  <path d="M50 64 L50 76" stroke="#0B2447" stroke-width="2" stroke-linecap="round"/>
+</svg>
