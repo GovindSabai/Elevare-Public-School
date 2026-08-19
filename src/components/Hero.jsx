@@ -115,6 +115,7 @@ const Hero = () => {
 
           {/* Action Buttons */}
           <div 
+            className="hero-buttons-wrapper"
             data-aos="fade-up"
             data-aos-duration="900"
             data-aos-delay="300"
@@ -144,6 +145,7 @@ const Hero = () => {
 
           {/* Floating Feature Highlight Box */}
           <div 
+            className="hero-feature-box"
             data-aos="fade-up"
             data-aos-duration="900"
             data-aos-delay="400"

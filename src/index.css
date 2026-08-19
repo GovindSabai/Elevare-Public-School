@@ -84,6 +84,11 @@ body {
   overflow-x: hidden;
 }
 
+#root {
+  overflow-x: hidden;
+  width: 100%;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-heading);
   color: var(--color-primary);
@@ -401,5 +406,23 @@ button, input, textarea, select {
   }
   .btn {
     width: 100%;
+    margin-bottom: 8px;
+  }
+  .footer-bottom-flex {
+    flex-direction: column;
+    text-align: center;
+    gap: 12px !important;
+  }
+  .footer-nav-links-wrapper {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .hero-buttons-wrapper {
+    flex-direction: column;
+    width: 100%;
+  }
+  .hero-feature-box {
+    grid-template-columns: 1fr !important;
   }
 }
+

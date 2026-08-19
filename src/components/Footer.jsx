@@ -199,25 +199,24 @@ const Footer = () => {
 
         </div>
 
-        {/* Bottom Bar */}
+        {/* Bottom Bar: Copyright & Policies */}
         <div 
+          className="footer-bottom-flex"
           style={{
             borderTop: '1px solid rgba(255, 255, 255, 0.1)',
-            padding: '24px 0',
+            paddingTop: '24px',
             display: 'flex',
             justifyContent: 'space-between',
             alignItems: 'center',
-            flexWrap: 'wrap',
-            gap: '16px',
             fontSize: '0.85rem',
             color: '#8E9EAF'
           }}
         >
           <div>
-            © 2026 <strong>Elevare Public School</strong>. All Rights Reserved.
+            &copy; {new Date().getFullYear()} Elevare Public School. All rights reserved.
           </div>
           
-          <div style={{ display: 'flex', alignItems: 'center', gap: '16px' }}>
+          <div className="footer-nav-links-wrapper" style={{ display: 'flex', alignItems: 'center', gap: '16px' }}>
             <Link to="/privacy-policy" className="footer-nav-link" style={{ color: 'inherit', textDecoration: 'none' }}>Privacy Policy</Link>
             <span>|</span>
             <Link to="/terms-conditions" className="footer-nav-link" style={{ color: 'inherit', textDecoration: 'none' }}>Terms & Conditions</Link>
