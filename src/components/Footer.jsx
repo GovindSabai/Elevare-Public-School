@@ -218,9 +218,9 @@ const Footer = () => {
           </div>
           
           <div style={{ display: 'flex', alignItems: 'center', gap: '16px' }}>
-            <a href="#" className="footer-nav-link" style={{ color: 'inherit', textDecoration: 'none' }}>Privacy Policy</a>
+            <Link to="/privacy-policy" className="footer-nav-link" style={{ color: 'inherit', textDecoration: 'none' }}>Privacy Policy</Link>
             <span>|</span>
-            <a href="#" className="footer-nav-link" style={{ color: 'inherit', textDecoration: 'none' }}>Terms & Conditions</a>
+            <Link to="/terms-conditions" className="footer-nav-link" style={{ color: 'inherit', textDecoration: 'none' }}>Terms & Conditions</Link>
           </div>
         </div>
 

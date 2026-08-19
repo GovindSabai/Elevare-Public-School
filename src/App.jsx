@@ -19,6 +19,8 @@ import AchievementsPage from './pages/AchievementsPage';
 import LeadershipPage from './pages/LeadershipPage';
 import NewsPage from './pages/NewsPage';
 import AdmissionsPage from './pages/AdmissionsPage';
+import PrivacyPolicyPage from './pages/PrivacyPolicyPage';
+import TermsConditionsPage from './pages/TermsConditionsPage';
 
 function App() {
   useEffect(() => {
@@ -49,6 +51,8 @@ function App() {
           <Route path="/leadership" element={<LeadershipPage />} />
           <Route path="/news" element={<NewsPage />} />
           <Route path="/admissions" element={<AdmissionsPage />} />
+          <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
+          <Route path="/terms-conditions" element={<TermsConditionsPage />} />
         </Routes>
         <Footer />
         <BackToTop />
